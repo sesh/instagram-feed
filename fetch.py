@@ -16,7 +16,7 @@ class InstagramFeed:
             'title': self.get_title(),
             'url': self.get_homepage_url(),
             'author': self.get_author_block(),
-            'itmes': list(self.get_photos()),
+            'items': list(self.get_photos()),
         }
 
     def fetch_html(self):
